@@ -13,7 +13,15 @@ const questions = [
 
     {
         question: " If the penalty is $20 per day late, which of the following lines of code accurately calculates the late penalty?",
-        options: [" var penalty = daysLate + 20;", "var penalty = daysLate * 20;", "var penalty = daysLate * 20;", "var penalty = daysLate && 20;"]
+        options: [" var penalty = daysLate + 20;", "var penalty = daysLate * 20;", "var penalty = daysLate * 20;", "var penalty = daysLate && 20;"],
+        answer: 1
+    },
+
+    {
+        question: " Which of the following is not a primary color used by computers to represent every possible color on a traditional computer screen?",
+        options: ["Red", "Blue", "Green", "Yellow"],
+        answer: 3
+
     }
 ];
 let gameIndex = 0
